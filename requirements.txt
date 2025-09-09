@@ -1,0 +1,7 @@
+pinecone-client
+transformers
+pdfplumber
+pandas
+python-dotenv
+tqdm
+scikit-learn
