@@ -55,21 +55,34 @@ Parcial_Electiva1/
 │── .env                   # Variables de entorno (no subir a GitHub)
 │── requirements.txt       # Dependencias
 │── README.md              # Documentación del proyecto
-▶️ Cómo ejecutar
+
+▶Cómo ejecutar:
+
 Clonar el repositorio:
+
 git clone https://github.com/Juliana-2210/Parcial_Electiva1.git
 cd Parcial_Electiva1
---Instalar dependencias:--
+
+Instalar dependencias:
+
 pip install -r requirements.txt
+
 Configurar tu .env con tu API Key.
 
 Ejecutar scripts en orden:
+
 python scripts/create_index.py
+
 python scripts/upsert_data.py
+
 python scripts/query_data.py
- Evidencias
+
+ Evidencias:
+ 
 Creación y estado del índice en Pinecone
+
 Inserción de 3 vectores
+
 Consulta con resultados de similitud
 
  Autor: Juliana Rincón
